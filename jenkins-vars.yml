@@ -1,0 +1,30 @@
+---
+
+# jenkins variables
+project_name: docker-kicad
+external_type: alpine_repo
+release_type: stable
+release_tag: latest
+ls_branch: master
+build_armhf: false
+repo_vars:
+  - BUILD_VERSION_ARG = 'KICAD_VERSION'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-kicad'
+  - CONTAINER_NAME = 'kicad'
+  - DOCKERHUB_IMAGE = 'linuxserver/kicad'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/kicad'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/kicad'
+  - DIST_IMAGE = 'alpine'
+  - DIST_TAG = 'edge'
+  - DIST_REPO = 'http://dl-cdn.alpinelinux.org/alpine/edge/community/'
+  - DIST_REPO_PACKAGES = 'kicad'
+  - MULTIARCH = 'true'
+  - CI = 'true'
+  - CI_WEB = 'true'
+  - CI_PORT = '3000'
+  - CI_SSL = 'false'
+  - CI_DELAY = '120'
+  - CI_DOCKERENV = 'TZ=US/Pacific'
+  - CI_AUTH = 'user:password'
+  - CI_WEBPATH = ''
