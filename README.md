@@ -64,6 +64,8 @@ The application can be accessed at:
 * http://yourhost:3000/
 * https://yourhost:3001/
 
+**A text editor is available in this image under /usr/bin/mousepad**
+
 ### Options in all KasmVNC based GUI containers
 
 This container is based on [Docker Baseimage KasmVNC](https://github.com/linuxserver/docker-baseimage-kasmvnc) which means there are additional environment variables and run configurations to enable or disable specific functionality.

@@ -40,6 +40,8 @@ app_setup_block: |
 
   * http://yourhost:3000/
   * https://yourhost:3001/
+  
+  **A text editor is available in this image under /usr/bin/mousepad**
 
   ### Options in all KasmVNC based GUI containers
 

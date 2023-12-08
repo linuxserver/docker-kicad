@@ -20,6 +20,7 @@ RUN \
     kicad==${KICAD_VERSION} \
     kicad-library \
     kicad-library-3d \
+    mousepad \
     py3-wxpython && \
   sed -i 's|</applications>|  <application title="KiCad*" type="normal">\n    <maximized>yes</maximized>\n  </application>\n</applications>|' /etc/xdg/openbox/rc.xml && \
   echo "**** cleanup ****" && \
