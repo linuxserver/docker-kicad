@@ -11,6 +11,10 @@ LABEL maintainer="thelamer"
 ENV TITLE=KiCad
 
 RUN \
+  echo "**** add icon ****" && \
+  curl -o \
+    /kclient/public/icon.png \
+    https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kicad-logo.png && \
   echo "**** install packages ****" && \
   if [ -z ${KICAD_VERSION+x} ]; then \
     KICAD_VERSION=$(curl -sL "http://dl-cdn.alpinelinux.org/alpine/v3.19/community/x86_64/APKINDEX.tar.gz" | tar -xz -C /tmp \
@@ -22,7 +26,6 @@ RUN \
     kicad-library-3d \
     mousepad \
     py3-wxpython && \
-  sed -i 's|</applications>|  <application title="KiCad*" type="normal">\n    <maximized>yes</maximized>\n  </application>\n</applications>|' /etc/xdg/openbox/rc.xml && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/*
