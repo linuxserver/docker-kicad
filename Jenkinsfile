@@ -26,7 +26,7 @@ pipeline {
     PR_DOCKERHUB_IMAGE = 'lspipepr/kicad'
     DIST_IMAGE = 'alpine'
     DIST_TAG = 'edge'
-    DIST_REPO = 'http://dl-cdn.alpinelinux.org/alpine/v3.19/community/'
+    DIST_REPO = 'http://dl-cdn.alpinelinux.org/alpine/v3.20/community/'
     DIST_REPO_PACKAGES = 'kicad'
     MULTIARCH = 'true'
     CI = 'true'
