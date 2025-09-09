@@ -108,7 +108,7 @@ coreutils-sha512sum                                                           9.
 crossbeam-deque                                                               0.8.3                                   rust-crate                   
 crossbeam-epoch                                                               0.9.15                                  rust-crate                   
 crossbeam-utils                                                               0.8.16                                  rust-crate                   
-cryptography                                                                  45.0.6                                  python                       
+cryptography                                                                  45.0.7                                  python                       
 cssselect2                                                                    0.8.0                                   python                       
 cups-libs                                                                     2.4.11-r0                               apk                          
 curl                                                                          8.14.1-r1                               apk                          
