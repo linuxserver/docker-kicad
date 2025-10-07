@@ -80,8 +80,8 @@ busybox                                                                       1.
 busybox-binsh                                                                 1.37.0-r19                              apk                          
 bytemuck                                                                      1.14.0                                  rust-crate                   
 c-ares                                                                        1.34.5-r0                               apk                          
-ca-certificates                                                               20250619-r0                             apk                          
-ca-certificates-bundle                                                        20250619-r0                             apk                          
+ca-certificates                                                               20250911-r0                             apk                          
+ca-certificates-bundle                                                        20250911-r0                             apk                          
 cairo                                                                         1.18.4-r0                               apk                          
 cairo-gobject                                                                 1.18.4-r0                               apk                          
 cairocffi                                                                     1.7.1                                   python                       
@@ -112,7 +112,7 @@ crossbeam-utils                                                               0.
 cryptography                                                                  46.0.2                                  python                       
 cssselect2                                                                    0.8.0                                   python                       
 cups-libs                                                                     2.4.11-r0                               apk                          
-curl                                                                          8.14.1-r1                               apk                          
+curl                                                                          8.14.1-r2                               apk                          
 dario.cat/mergo                                                               v1.0.1                                  go-module   (+2 duplicates)  
 dbus                                                                          1.16.2-r1                               apk                          
 dbus-daemon-launch-helper                                                     1.16.2-r1                               apk                          
@@ -638,7 +638,7 @@ libc                                                                          0.
 libcap-ng                                                                     0.8.5-r0                                apk                          
 libcap2                                                                       2.76-r0                                 apk                          
 libcrypto3                                                                    3.5.4-r0                                apk                          
-libcurl                                                                       8.14.1-r1                               apk                          
+libcurl                                                                       8.14.1-r2                               apk                          
 libdav1d                                                                      1.5.1-r0                                apk                          
 libdc1394                                                                     2.2.7-r0                                apk                          
 libde265                                                                      1.0.15-r1                               apk                          
