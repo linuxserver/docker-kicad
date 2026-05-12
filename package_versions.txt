@@ -144,7 +144,7 @@ crossbeam-epoch                                                               0.
 crossbeam-queue                                                               0.3.11                                  rust-crate                   
 crossbeam-utils                                                               0.8.16                                  rust-crate                   
 crossbeam-utils                                                               0.8.19                                  rust-crate                   
-cryptography                                                                  47.0.0                                  python                       
+cryptography                                                                  48.0.0                                  python                       
 cssselect2                                                                    0.8.0                                   python                       
 cups-libs                                                                     2.4.18-r0                               apk                          
 curl                                                                          8.17.0-r1                               apk                          
@@ -681,7 +681,7 @@ hwdata-pci                                                                    0.
 hyphen                                                                        2.8.8-r3                                apk                          
 icu-data-en                                                                   76.1-r1                                 apk                          
 icu-libs                                                                      76.1-r1                                 apk                          
-idna                                                                          3.13                                    python                       
+idna                                                                          3.14                                    python                       
 ifaddr                                                                        0.2.0                                   python                       
 imagequant                                                                    4.2.2                                   rust-crate                   
 imagequant-sys                                                                4.0.3                                   rust-crate                   
@@ -982,7 +982,7 @@ pcre2                                                                         10
 pillow                                                                        11.3.0                                  python                       
 pillow                                                                        12.2.0                                  python                       
 pip                                                                           25.0.1                                  python                       
-pixelflux                                                                     1.6.2                                   python                       
+pixelflux                                                                     1.6.3                                   python                       
 pixman                                                                        0.46.4-r0                               apk                          
 pkgconf                                                                       2.5.1-r0                                apk                          
 platformdirs                                                                  4.4.0                                   python                       
@@ -994,7 +994,7 @@ profiling                                                                     1.
 profiling-procmacros                                                          1.0.13                                  rust-crate                   
 proj                                                                          9.7.1-r0                                apk                          
 prometheus-client                                                             0.25.0                                  python                       
-propcache                                                                     0.4.1                                   python                       
+propcache                                                                     0.5.2                                   python                       
 protobuf                                                                      31.1-r1                                 apk                          
 protoc                                                                        31.1-r1                                 apk                          
 psutil                                                                        7.2.2                                   python                       
@@ -1037,7 +1037,7 @@ pycparser                                                                     3.
 pyee                                                                          13.0.1                                  python                       
 pylibsrtp                                                                     1.0.0                                   python                       
 pynput                                                                        1.8.1                                   python                       
-pyopenssl                                                                     26.1.0                                  python                       
+pyopenssl                                                                     26.2.0                                  python                       
 python-xlib                                                                   0.33                                    python                       
 python3                                                                       3.12.13-r0                              apk                          
 python3-pyc                                                                   3.12.13-r0                              apk                          
